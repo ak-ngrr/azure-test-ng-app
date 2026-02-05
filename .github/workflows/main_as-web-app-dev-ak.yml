@@ -61,7 +61,7 @@ jobs:
         with:
           app-name: 'as-web-app-dev-ak'
           slot-name: 'Production'
-          package: dist/azure-test-app'
+          package: dist/azure-test-app/browser'
       - uses: actions/checkout@v3
       - name: Build Angular App
         run: |
